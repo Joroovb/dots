@@ -54,6 +54,7 @@ if [ -n "$CONTAINER_ID" ]; then
 	alias rm="rm -r"
 	alias cp="cp -r"
 	alias grep="rg"
+	alias cat="bat"
 
 	eval "$(fzf --bash)"
 fi
